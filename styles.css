@@ -155,6 +155,9 @@
 }
 
 .call-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F9FAF8;
     height: 260px;
 }
@@ -191,4 +194,14 @@
     border: 1px solid #f9faf8;
     text-align: center;
     margin: -36px 0 0 600px;
+}
+
+.footer-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 60px;
+    color: #f9faf8;
+    font-size: 14px;
 }
